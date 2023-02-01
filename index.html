@@ -5,8 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ExpenseTracker_Mbuyiselo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+       <h1>Expense Tracker App</h1>
+       <main class="form">
+        <div class="form-row">
+            
+                <label for="expense-name">Expense name</label>
+                <input type="text" class="form-control" id="expenseName">
+          
+            
+                <label for="expense-amount">Amount</label>
+                <input type="number" step="0.01" class="form-control" id="expensAmount">
+       
+            
+                <label for="expense-category">Category</label>
+                <select class="form-control" id="expenseCategory">
+                    <option selected>Groceries</option>
+                    <option>Travel</option>
+                    <option>Clothing</option>
+                    <option>Rent</option>
+                    <option>Pharmacy</option>
+                    <option>Miscellaneous</option>
+                </select>
+                
+                
+                    <label for="expense-date">Date</label>
+                    <input type="text" class="dateclass" id="expense-date">
+              
+           
+           
+                <button id="expense-btn" class="btnexpense">Add expense</button>
+             
+                 <label for="">Calculate</label>
+                <input type="text" id="calcBudget">
+
+
+             
+       </main>
+       <table id="expense-table" class="table">
+        <thead>
+            <tr>
+                <th scope="col">Expense name</th>
+                <th scope="col">Amount </th>
+                <th scope="col">Category</th>
+                <th scope="col">Date</th>
+            </tr>
+        </thead>
+        <tbody id="expense-table-body"></tbody>
+    </table>
+    <div class="text-left my-4" style="margin-left: 15rem;">
+        <h2>Total: <span id="total" class="mx-2"><strong>0</strong></span>zł</h2>
+    </div>
 </body>
 </html>

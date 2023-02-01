@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(187, 113, 113);
+}
+h1{
+    color: rgb(46, 183, 41);
+    margin-left: 35rem;
+}
+.form{
+    background-color: rgb(176, 136, 211);
+    width: 80rem;
+    height: 15rem;
+    border-radius:1rem;
+    margin-left: 6rem;
+}
+.btnexpense{
+    margin-top: 6rem;
+    margin-left: 20rem;
+    width: 20rem;
+    height: 3rem;
+    background-color: rgb(99, 219, 99);
+    border-radius: 0.5rem;
+    font-size: 2rem;
+
+
+}
+input{
+    margin-left: 5rem;
+    margin-top: 2rem;
+    border-radius: 0.2rem;
+}
+label{
+   margin-left: 2rem;
+}
+.table{
+    margin-left: 25rem;
+}
+.table{
+    flex-direction: column;
+    display: block;
+}
