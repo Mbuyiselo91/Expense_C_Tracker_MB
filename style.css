@@ -1,12 +1,12 @@
 body{
-    background-color: rgb(187, 113, 113);
+    background-color: #ffffff;
 }
 h1{
-    color: rgb(46, 183, 41);
+    color: rgb(12, 12, 12);
     margin-left: 35rem;
 }
 .form{
-    background-color: rgb(176, 136, 211);
+    background-color: rgb(225, 201, 220);
     width: 80rem;
     height: 15rem;
     border-radius:1rem;
@@ -17,9 +17,10 @@ h1{
     margin-left: 20rem;
     width: 20rem;
     height: 3rem;
-    background-color: rgb(99, 219, 99);
+    background-color: rgb(162, 212, 204);
     border-radius: 0.5rem;
     font-size: 2rem;
+    border-color: aquamarine;
 
 
 }
@@ -27,14 +28,32 @@ input{
     margin-left: 5rem;
     margin-top: 2rem;
     border-radius: 0.2rem;
+    padding: 0.4rem;
 }
 label{
-   margin-left: 2rem;
+   margin-left: 1rem;
 }
+
 .table{
     margin-left: 25rem;
 }
 .table{
     flex-direction: column;
     display: block;
+}
+.form-control{
+    border-radius: 0.2rem;
+    padding: 0.4rem;
+}
+.expense-table-body{
+    margin-left: 30rem;
+    padding-left: 1.0rem;
+}
+.col{
+    gap: 34rem;
+    margin-left: 50rem;
+}
+th{
+    gap: 34rem;
+    margin-left: 50rem;
 }
