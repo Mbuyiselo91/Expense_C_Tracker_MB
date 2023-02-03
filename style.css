@@ -66,11 +66,13 @@ th{
 .table{
     background-color: rgba(122, 104, 104, 0.695);
     width: 80rem;
-    height: 30rem;
+    height: 22rem;
     border-radius:1rem;
     margin-left: 6rem;
     border-top-left-radius: 0rem;
     border-top-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
 
 }
 h2{
@@ -79,6 +81,9 @@ h2{
     border-top: 1px solid;
     margin-right: 8rem;
     border-radius: 1rem;
+    margin-top: 0rem;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
     
 }
 .text-left{
