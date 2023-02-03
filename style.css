@@ -20,7 +20,7 @@ h1{
     margin-left: 20rem;
     width: 20rem;
     height: 3rem;
-    background-color: rgb(162, 212, 204);
+    background-color: rgb(208, 126, 126);
     border-radius: 0.5rem;
     font-size: 2rem;
     border-color: aquamarine;
@@ -34,7 +34,7 @@ h1{
     background-color: rgb(93, 201, 156);
     border-radius: 0.5rem;
     font-size: 2rem;
-    border-color: rgb(232, 242, 239);
+    border-color: rgb(223, 153, 153);
 }
 
 
@@ -110,4 +110,14 @@ h2{
     width: 2rem;
     height: 5rem;
     color: red;
+}
+/* img{
+    margin-left: 55rem;
+    background-color: red;
+    margin-top: -10rem;
+} */
+.image{
+    margin-left: 55rem;
+    margin-top: -15rem;
+    background-color: red;
 }
