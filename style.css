@@ -54,6 +54,23 @@ label{
     margin-left: 50rem;
 }
 th{
-    gap: 34rem;
+    gap: 35rem;
     margin-left: 50rem;
+    padding-left: 15rem;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    
+}
+.table{
+    background-color: rgba(122, 104, 104, 0.695);
+    width: 80rem;
+    height: 30rem;
+    border-radius:1rem;
+    margin-left: 6rem;
+}
+h2{
+    background-color: rgba(51, 40, 40, 0.695);
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    
 }
