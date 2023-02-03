@@ -24,6 +24,7 @@ h1{
     border-radius: 0.5rem;
     font-size: 2rem;
     border-color: aquamarine;
+    cursor: pointer;
 
 }
  .btincome{
@@ -35,6 +36,7 @@ h1{
     border-radius: 0.5rem;
     font-size: 2rem;
     border-color: rgb(223, 153, 153);
+    cursor: pointer;
 }
 
 
@@ -90,7 +92,7 @@ th{
 
 }
 h2{
-    background-color: rgba(51, 40, 40, 0.695);
+    background-color: rgba(71, 199, 197, 0.695);
     border-bottom: 1px solid;
     border-top: 1px solid;
     margin-right: 8rem;
