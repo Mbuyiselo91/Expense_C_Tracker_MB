@@ -72,5 +72,16 @@ h2{
     background-color: rgba(51, 40, 40, 0.695);
     border-bottom: 1px solid;
     border-top: 1px solid;
+    margin-right: 8rem;
     
+}
+.text-left{
+    margin-left: 8rem;
+
+}
+.bi {
+    margin-left: 32rem;
+    margin-bottom: -5.5rem;
+    width: 2rem;
+    height: 5rem;
 }
