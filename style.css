@@ -11,6 +11,8 @@ h1{
     height: 15rem;
     border-radius:1rem;
     margin-left: 6rem;
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
 }
 .btnexpense{
     margin-top: 6rem;
@@ -67,12 +69,16 @@ th{
     height: 30rem;
     border-radius:1rem;
     margin-left: 6rem;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+
 }
 h2{
     background-color: rgba(51, 40, 40, 0.695);
     border-bottom: 1px solid;
     border-top: 1px solid;
     margin-right: 8rem;
+    border-radius: 1rem;
     
 }
 .text-left{
