@@ -1,5 +1,5 @@
 body{
-    background-color: #ffffff;
+    background-color: #e6e1e1;
 }
 h1{
     color: rgb(12, 12, 12);
@@ -92,7 +92,7 @@ th{
 
 }
 h2{
-    background-color: rgba(71, 199, 197, 0.695);
+    background-color: rgb(93, 201, 156);
     border-bottom: 1px solid;
     border-top: 1px solid;
     margin-right: 8rem;
