@@ -2,10 +2,7 @@
 let amount;
 let transactionName;
 let tableRows;
-
-// keeps data for the table
 let tableData = [];
-
 let income = 0;
 let expense = 0;
 let total = 0;
@@ -17,6 +14,7 @@ function isValid(value) {
   return true;
 }
 
+// add income function
 function addIncome() {
   getUserInput();
 
@@ -58,7 +56,7 @@ function addExpense() {
   displayTableData();
 }
 
-// put input data into variables
+// put input data variables
 function getUserInput() {
   amount = Number(document.getElementById('amount').value);
   transactionName = document.getElementById('transaction').value;
@@ -70,7 +68,7 @@ function clearUserInput() {
   document.getElementById('transaction').value = '';
 }
 
-// display table data
+
 function displayTableData() {
   let totalIncome = document.getElementById('totalIncome');
   let totalExpence = document.getElementById('totalExpence');
@@ -102,6 +100,7 @@ function displayTableData() {
   totalMoney.innerHTML = total;
 }
 
+// calculate totals
 function calculate() {
   income = 0;
   expense = 0;
@@ -132,7 +131,17 @@ function removeTransaction(index) {
   }
 }
 
-  
-
+// clear table
+function clearTableData() {
+  if (tableData.length == 0) {
+    alert('Transaction table already empty');
+    return;
+  }
+  if (window.confirm('Are you sure clear table?')) {
+    tableData = [];
+    calculate();
+    displayTableData();
+  }
+}
 
 displayTableData();
