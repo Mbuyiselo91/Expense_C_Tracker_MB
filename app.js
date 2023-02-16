@@ -43,7 +43,7 @@ function addTransaction(name, amount, type){
     var amount = amountInputEl.value;
 
 
-    if (name !== '' || amount !== '') {
+    if (name.value == '' && amount.value == '') {
         var transaction =  {id: uniqueId(), name: name, amount: parseInt(amount), type: type};
         data.transactions.push(transaction);
         updateState();
