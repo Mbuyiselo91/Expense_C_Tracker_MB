@@ -34,8 +34,8 @@ input{
   gap: 1.5rem; */
   border-radius: 0.2rem;
   padding: 0.5rem;
-  box-sizing: border-box; /* Include the border and padding in the element's total width */
-  border: 2px solid #f5f5f5; /* Set a 2-pixel border around the input element */
+  box-sizing: border-box; 
+  border: 2px solid #f5f5f5; 
   border-radius: 4px; 
   
 
@@ -159,7 +159,7 @@ margin-bottom: 10px;
   margin-right: 5px;
 }
 #transaction li .income-amt {
-  color: rgb(14, 15, 14);
+  color: rgb(63, 183, 77);
 
   background-color: rgb(211, 234, 234)
 

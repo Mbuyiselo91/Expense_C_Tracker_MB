@@ -22,7 +22,7 @@ function displayShow(){
 
     if (localState !== null) {
         data = localState;
-    }
+    }   
     updateState();
     
 }
@@ -40,9 +40,9 @@ function addTransaction(name, amount, type){
     var name = nameInputEl.value;
     var amount = amountInputEl.value;
 
-
+    
     if (name !='' && amount !='') {
-       // alert("Please add name");
+       
         var transaction =  {id: uniqueId(), name: name, amount: parseInt(amount), type: type};
         data.transactions.push(transaction);
         updateState();
@@ -50,7 +50,7 @@ function addTransaction(name, amount, type){
     }
     else
     {
-        alert("Please add name");
+        alert("Please add the input ");
         
     }
     
@@ -63,6 +63,7 @@ function addTransaction(name, amount, type){
 function onAddExpenseClick(){
     addTransaction(nameInputEl.value, amountInputEl.value, 'expense');
 }
+
 
 function onDeleteClick(event){
     var id = parseInt(event.target.getAttribute('data-id'));
