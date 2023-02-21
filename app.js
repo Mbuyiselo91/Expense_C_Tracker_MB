@@ -18,7 +18,8 @@ var amountInputEl = document.getElementById('amount');
 
 
 function displayShow(){
-    var localState = JSON.parse(localStorage.getItem('expenseTrackerState'));
+    // From Data
+    var localState = JSON.parse(localStorage.getItem('expenseTrackerState')); 
 
     if (localState !== null) {
         data = localState;
@@ -26,16 +27,16 @@ function displayShow(){
     updateState();
     
 }
-
+//    ID number list output
 function uniqueId(){
     return Math.round(Math.random() * 1000000);
     
 }
-
+//    The click on the button from html
 function onAddIncomeClick(){
     addTransaction(nameInputEl.value, amountInputEl.value, 'income');
 }
-
+// The table list used transaction (My Statement) DATA
 function addTransaction(name, amount, type){
     var name = nameInputEl.value;
     var amount = amountInputEl.value;
@@ -48,8 +49,13 @@ function addTransaction(name, amount, type){
         updateState();
 
     }
+    // else if(isNaN(name !='')){
+    //     alert("Must input name");
+    //     return false;
+    // }
     else
     {
+        // The prevent show the input name and amount
         alert("Please add the input ");
         
     }
@@ -64,7 +70,7 @@ function onAddExpenseClick(){
     addTransaction(nameInputEl.value, amountInputEl.value, 'expense');
 }
 
-
+// The delete target the data-id trash icons
 function onDeleteClick(event){
     var id = parseInt(event.target.getAttribute('data-id'));
     var deleteIndex;
@@ -106,6 +112,7 @@ function updateState(){
         }
     }
 
+    // The calcuate minus data
     balance = income - expense;
 
     data.balance = balance;
@@ -116,7 +123,7 @@ function updateState(){
 
     render();
 }
-
+// the Display Data from html
 function render(){
     balanceEl.innerHTML = `R${data.balance}`;
     incomeEl.innerHTML = `R${data.income}`;
